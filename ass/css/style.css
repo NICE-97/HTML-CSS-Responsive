@@ -1,0 +1,1360 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --red: #f64b3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    border: none;
+ }
+
+ .nav-header {
+    background: url(../img/bg-header.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+
+    color: white;
+
+    & .container-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 5rem;
+
+        & .menu-con {
+            & ul {
+                list-style: none;
+                & li a {
+                    padding: 1.5rem;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    & .container-header {
+        width: 700px;
+        margin-top: 3rem;
+        padding-left: 5rem;
+
+        & h1 {
+            font-size: 90px;
+        }
+
+        & p {
+            margin-top: 2rem;
+            font-size: 34px;
+        }
+
+        & .header-btn-con {
+            margin-top: 3rem;
+
+            & .header-btn {
+                padding: 1rem 4rem;
+                font-size: 25px;
+                font-weight: 600;
+                border-radius: 3rem;
+                background: var(--red);
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+ }
+
+ .our-chef {
+    background: url(../img/bg-section-1.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0  auto;
+    overflow: hidden;
+    color: var(--red);
+    
+
+    & .container-info {
+        margin-top: 5rem;
+        text-align: center;
+
+        & h2 {
+            font-size: 60px;
+        }
+        & p {
+            margin-top: 2rem;
+            font-size: 30px;
+        }
+    }
+    & .container-chef {
+        display: grid;
+        width: 1200px;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5rem;
+        & .chef-info-box {
+            text-align: center;
+
+            & h2 {
+                margin-top: 1rem;
+                font-size: 30px;
+            }
+            & p {
+                margin-top: 1rem;
+                font-size: 25px;
+            }
+        }
+    }
+ }
+
+ .best-burger {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background: var(--red);
+    color: white;
+    overflow: hidden;
+    display: flex;
+
+    & .best-burger-img {
+        padding: 12rem 6rem;
+    }
+
+    & .best-burger-info {
+        padding: 4rem;
+        margin-top: 12rem;
+
+        & h2 {
+            font-size: 60px;
+        }
+        & p {
+            margin-top: 3rem;
+            font-size: 33px;
+        }
+        & .best-burger-btn {
+            margin-top: 4rem;
+            & .burger-btn {
+                padding: 1rem 4rem;
+                font-size: 25px;
+                font-weight: 600;
+                border-radius: 3rem;
+                background: white;
+                color: var(--red);
+                text-decoration: none;
+            }
+        }
+    }
+ }
+
+ .big-burger {
+    background: url(../img/bg-pag4.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    color: var(--red);
+
+    & .big-burger-info {
+        padding: 0 6rem;
+        margin-top: 15rem;
+
+        & h2 {
+            font-size: 60px;
+        }
+        & p {
+            margin-top: 3rem;
+            font-size: 33px;
+        }
+        & .big-burger-btn {
+            margin-top: 4rem;
+            & .burger-btn {
+                padding: 1rem 4rem;
+                font-size: 25px;
+                font-weight: 600;
+                border-radius: 3rem;
+                background: var(--red);
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    & .big-burger-img{
+        margin-top: 12rem;
+        padding: 0 7rem;
+    }
+ }
+
+.statictics {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background: var(--red);
+    color: white;
+    overflow: hidden;
+
+    & .con-title-info {
+        text-align: center;
+        margin: 5rem;
+
+        & h2 {
+            font-size: 60px;
+        }
+        & p {
+            margin-top: 3rem;
+            font-size: 27px;
+        }
+    }
+
+    & .con-info {
+        width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5rem;
+        align-items: center;
+        & .info-box-radius {
+            margin-left: 3rem;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            background:var(--red);
+            border: 6px solid white;
+            border-radius: 100%;
+            & h1 {
+                margin-top: 5rem;
+                font-size: 70px;
+            }
+            & h2 {
+                font-size: 40px;
+            }
+        }
+    }
+ }
+
+.popular-package {
+    background: url(../img/bg-pag6.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: var(--red);
+
+    & h1 {
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    & .package-con {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 7rem;
+
+        & .package-box {
+            padding: 1rem 1rem;
+            text-align: center;
+            background: white;
+            margin: 0 2rem;
+
+            & h2 {
+                font-size: 40px;
+            }
+
+            & img {
+                margin-top: 2rem;
+            }
+
+            & h3 {
+                margin-top: 2rem;
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            & p {
+                margin-top: 2rem;
+            }
+
+            & .package-con-btn {
+                margin: 2rem 0;
+
+                & .package-btn {
+                    padding: 1rem 4rem;
+                    font-size: 25px;
+                    font-weight: 600;
+                    border-radius: 3rem;
+                    background: var(--red);
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.barry-henderson {
+    background: url(../img/bg-pag7.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+    background-size: 100%;
+    & .container-info {
+        text-align: center;
+        align-items: center;
+
+        & p {
+            font-size: 40px;
+        }
+
+        & h3 {
+            margin-top: 3rem;
+            font-size: 50px;
+            
+        }
+    }
+}
+
+.our-update {
+    background: url(../img/bg-pag8.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: var(--red);
+    background-size: 100%;
+    & .container-info {
+        text-align: center;
+        margin-top: 17rem;
+        & h2 {
+            font-size: 60px;
+        }
+        & p {
+            margin-top: 3rem;
+            font-size: 30px;
+        }
+    }
+    & .our-update-btn-con {
+        margin-top: 5rem;
+
+        & input {
+            padding: 1.5rem 12rem;
+            padding-inline-start: 2rem;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            font-size: 20px;
+            text-align: left;
+            color: #835e3f;
+        }
+        & .our-update-btn {
+            padding: 1.5rem 2rem;
+            background: var(--red);
+            border-bottom-right-radius: 50px;
+            border-top-right-radius: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+footer {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #222222;
+    color: white;
+    & .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        & .con-lfet {
+            padding: 15rem 5rem;
+
+            & h3 {
+                font-size: 40px;
+            }
+            & p {
+                margin-top: 2rem;
+                font-size: 25px;
+            }
+            & .contact-con {
+                margin-top: 2rem;
+            }
+        }
+        & .con-right {
+            display: flex;
+            margin-top: 15rem;
+            
+            & h3 {
+                font-size: 35px;
+            }
+            & .con-info {
+                margin-right: 5rem;
+                & ul {
+                    list-style: none;
+                    margin-top: 1rem;
+                }
+
+                & li a {
+                    font-size: 25px;
+                    color: white;
+                    text-decoration: white;
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+}
+ /******************************responsive css******************************/
+
+@media only screen and (max-width: 1200px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .chef-info-box {
+            margin-bottom: 5rem;
+        } 
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+
+        & .best-burger-info {
+            margin-top: 10rem;
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        background-size: 100%;
+        & .big-burger-info {
+            margin-top: 13rem;
+            padding:  0 6rem;
+        }
+        & .big-burger-img {
+            padding: 0 5rem;
+            margin-top: 10rem;
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        background-size: cover;
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        & .container-info {
+            margin-top: 15rem;
+        }
+    }
+    footer {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .container-chef {
+            width: auto;
+            & .chef-info-box {
+                margin-bottom: 5rem;
+            } 
+        }
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+
+        & .best-burger-img {
+            margin-top: 2rem;
+        }
+        & .best-burger-img img {
+            width: 100%;
+        }
+        & .best-burger-info {
+            margin-top: 10rem;
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        background-size: 100%;
+        & .big-burger-info {
+            margin-top: 13rem;
+            padding:  0 6rem;
+        }
+        & .big-burger-img {
+            padding: 0 5rem;
+            margin-top: 16rem;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+
+        & .con-info {
+            width: auto;
+            & .info-box-radius {
+                width: 250px;
+                height: 250px;
+                & h1 {
+                    font-size: 50px;
+                }
+                & h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+
+        & .package-con {
+            width: auto;
+            & .package-box {
+                & .package-con-btn {
+                    & .package-btn {
+                        padding: 1rem 2rem;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        background-size: cover;
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        & .container-info {
+            margin-top: 15rem;
+        }
+    }
+    footer {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .container-chef {
+            width: auto;
+            & .chef-info-box {
+                margin-bottom: 5rem;
+            } 
+        }
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+
+        & .best-burger-img {
+            margin-top: 2rem;
+        }
+        & .best-burger-img img {
+            width: 100%;
+        }
+        & .best-burger-info {
+            margin-top: 5rem;
+            & h2 {
+                font-size: 50px;
+            }
+            & p {
+                font-size: 30px;
+            }
+            & .best-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        background-size: 100%;
+        & .big-burger-info {
+            margin-top: 10rem;
+            padding:  0 6rem;
+            & h2 {
+                font-size: 50px;
+            }
+            & p {
+                font-size: 30px;
+            }
+            & .big-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 20px;
+                }
+            }
+        }
+        & .big-burger-img {
+            padding: 0 5rem;
+            margin-top: 16rem;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+
+        & .con-info {
+            width: auto;
+            margin-right: 2rem;
+            & .info-box-radius {
+                width: 230px;
+                height: 230px;
+                & h1 {
+                    margin-top: 4rem;
+                    font-size: 45px;
+                }
+                & h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+        & .package-con {
+            margin-top: 5rem;
+            width: auto;
+            & .package-box {
+                & .package-con-btn {
+                    & .package-btn {
+                        padding: 1rem 2rem;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        background-size: cover;
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        & .container-info {
+            margin-top: 15rem;
+        }
+    }
+    footer {
+        width: auto;
+        & .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            & .con-lfet {
+                padding: 5rem;
+            }
+            & .con-right{
+                margin: 0;
+                & .con-info {
+                    margin-left: 4rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+
+        & .container-nav {
+            flex-direction: column;
+            padding: 2rem 2rem;
+
+            & .menu-con {
+                margin-top: 2rem;
+                & ul li a {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .container-chef {
+            width: auto;
+            & .chef-info-box {
+                margin-bottom: 5rem;
+            } 
+        }
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+
+        & .best-burger-img {
+            margin-top: 2rem;
+        }
+        & .best-burger-img  {
+
+            padding:  4rem 2rem;
+            
+        }
+        & .best-burger-info {
+            margin-top: 4rem;
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .best-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .big-burger-info {
+            margin-top: 5rem;
+            padding:  0 6rem;
+            margin-bottom: 5rem;
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .big-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 18px;
+                }
+            }
+        }
+        & .big-burger-img {
+            padding: 0 2rem;
+            margin-top: 5rem;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .con-info {
+            width: auto;
+            margin-right: 2rem;
+            margin-bottom: 5rem;
+            & .info-box-radius {
+                width: 200px;
+                height: 200px;
+                & h1 {
+                    margin-top: 3.5rem;
+                    font-size: 40px;
+                }
+                & h2 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & h1 {
+            margin-top: 4rem;
+            font-size: 50px;
+        }
+        & .package-con {
+            margin-top: 2rem;
+            width: auto;
+            margin-bottom: 5rem;
+            & .package-box {
+                padding: 0.5rem;
+                & h2 {
+                    font-size: 35px;
+                }
+                & .package-con-btn {
+                    & .package-btn {
+                        padding: 1rem 2rem;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            margin: 6rem 1em;
+        }
+
+
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            margin: 5rem 0;
+        }
+    }
+    footer {
+        width: auto;
+        & .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            & .con-lfet {
+                padding: 5rem;
+            }
+            & .con-right{
+                margin: 0;
+                & .con-info {
+                    margin-left: 4rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+        height: auto;
+        overflow: hidden;
+
+        & .container-nav {
+            flex-direction: column;
+            padding: 2rem 0;
+            & .menu-con {
+                margin: 2rem 0;
+                & ul li a {
+                    font-size: 15px;
+                }
+            }
+        }
+        & .container-header {
+            margin-bottom: 5rem;
+            margin-top: 1rem;
+            & h1 {
+                font-size: 50px;
+            }
+            & p {
+                width: 500px;
+                font-size: 25px;
+            }
+        }
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        & .container-chef {
+            width: auto;
+            & .chef-info-box {
+                margin-bottom: 5rem;
+                & img {
+                    width: 80%;
+                }
+            } 
+        }
+        & .container-info {
+            margin-left: 1.5rem;
+            & p {
+                width: 550px;
+                font-size: 28px;
+            }
+        }
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+
+        & .best-burger-img {
+            margin-top: 2rem;
+        }
+        & .best-burger-img  {
+
+            padding:  4rem 1rem;
+            
+        }
+        & .best-burger-info {
+            padding: 0;
+            margin-top: 4rem;
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .best-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        background-size: 100%;
+        & .big-burger-info {
+            margin-top: 5rem;
+            padding: 0rem;
+            margin-bottom: 5rem;
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .big-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 18px;
+                }
+            }
+        }
+        & .big-burger-img {
+            padding: 0 2rem;
+            margin-top: 5rem;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        & .con-title-info {
+            margin: 2rem 0;
+        }
+        & .con-info {
+            max-width: 500px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            & .info-box-radius {
+                width: 150px;
+                height: 150px;
+                margin-left: 0rem;
+                & h1 {       
+                    margin-top: 2rem;
+                    font-size: 40px;
+                }
+                & h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & h1 {
+            margin-top: 4rem;
+            font-size: 50px;
+        }
+        & .package-con {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            
+            & .package-box {
+                width: 50%;
+                padding: 2rem;
+                margin: 1rem 0;
+                & h2 {
+                    font-size: 35px;
+                }
+                & .package-con-btn {
+                    & .package-btn {
+                        padding: 1rem 2rem;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            margin: 6rem 1em;
+        }
+
+
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            & .our-update-btn-con {
+                & input {
+                    padding: 1.5rem 1rem;
+                }
+                & .our-update-btn {
+                    padding: 1.5rem 0.5rem;
+                }
+            }
+        }
+    }
+    footer {
+        width: auto;
+        padding: 1rem;
+        & .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            & .con-lfet {
+                padding: 5rem;
+            }
+            & .con-right{
+                margin: 0;
+                max-width: 500px;
+                
+                
+                & .con-info {
+                    margin-right: 1rem !important;
+                    margin: 0rem;
+                    & ul li {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .nav-header {
+        margin: 0 auto;
+        width: auto; 
+        height: auto;
+        overflow: hidden;
+
+        & .container-nav {
+            flex-direction: column;
+            padding: 2rem 0;
+            & .menu-con {
+                margin: 1rem 0;
+                & ul li a {
+                    font-size: 15px;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        & .container-header {
+            margin: 0 auto;
+            max-width: 450px;
+            padding: 0;
+            margin-bottom: 2rem;
+            & h1 {
+                font-size: 50px;
+            }
+            & p {
+                width: 500px;
+                font-size: 25px;
+            }
+        }
+    }
+    .our-chef {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        background-size: 100%;
+        padding: 1rem;
+        & .container-chef {
+            width: auto;
+            & .chef-info-box {
+
+                margin-bottom: 2rem;
+                & img {
+                    width: 80%;
+                }
+                & h2 {
+                    font-size: 25px;
+                }
+            } 
+        }
+        & .container-info {
+            margin-top: 2rem;
+            
+            & p {
+                width: auto !important;
+                font-size: 20px;
+            }
+        }
+    }
+    .best-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        & .best-burger-img {
+            margin-top: 2rem;
+            & img {
+                width: 70%;
+            }
+        }
+        & .best-burger-img  {
+            text-align: center;
+            padding:  0 1rem;
+            
+        }
+        & .best-burger-info {
+            text-align: center;
+            margin: 2rem auto;
+
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .best-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .big-burger {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        & .big-burger-info {
+            text-align: center;
+            margin: 2rem auto;
+            & h2 {
+                font-size: 40px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            & .big-burger-btn {
+                & .burger-btn {
+                    padding: 1rem 3rem;
+                    font-size: 18px;
+                }
+            }
+        }
+        & .big-burger-img {
+            margin: 2rem auto;
+            text-align: center;
+            & img {
+                width: 70%;
+            }
+        }
+    }
+    .statictics {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        & .con-title-info {
+            margin: 2rem 0;
+        }
+        & .con-info {
+            max-width: 500px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            & .info-box-radius {
+                width: 150px;
+                height: 150px;
+                margin-left: 0rem;
+                & h1 {       
+                    margin-top: 2rem;
+                    font-size: 40px;
+                }
+                & h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .popular-package {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & h1 {
+            margin-top: 4rem;
+            font-size: 50px;
+        }
+        & .package-con {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            
+            & .package-box {
+                width: 65%;
+                padding: 2rem;
+                margin: 1rem 0;
+                & h2 {
+                    font-size: 35px;
+                }
+                & .package-con-btn {
+                    & .package-btn {
+                        padding: 1rem 2rem;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .barry-henderson {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            margin: 6rem 1em;
+        }
+
+
+    }
+    .our-update {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        & .container-info {
+            & .our-update-btn-con {
+                & input {
+                    padding: 1.5rem 1rem;
+                }
+                & .our-update-btn {
+                    padding: 1.5rem 0.5rem;
+                }
+            }
+        }
+    }
+    footer {
+        width: auto;
+        padding: 1rem;
+        & .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+            & .con-lfet {
+                padding: 0 2rem;
+                margin: 2rem 0;
+            }
+            & .con-right{
+                margin: 0;
+                max-width: 450px;
+                & h3 {
+                    font-size: 30px;
+                }
+                
+                & .con-info {
+                    margin-right: 1rem !important;
+                    margin: 0rem;
+                    & ul li {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
